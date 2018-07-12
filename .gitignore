@@ -1,52 +1,34 @@
-# Prerequisites
-*.d
-
-# Object files
+src/*.exe
+src/nilecoin
+src/nilecoind
+src/test_nilecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
 *.o
-*.ko
-*.obj
-*.elf
+*.patch
+.nilecoin
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+nilecoin-qt
+Nilecoin-Qt.app
 
-# Precompiled Headers
-*.gch
-*.pch
+# Unit-tests
+Makefile.test
+nilecoin-qt_test
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Resources cpp
+qrc_*.cpp
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Qt creator
+*.pro.user
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Mac specific
+.DS_Store
+build
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+!src/leveldb*/Makefile
