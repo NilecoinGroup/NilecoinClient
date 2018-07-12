@@ -8,7 +8,7 @@ Copyright (c) 2016-2018 Nilecoin Developers
 What is Nilecoin?
 ----------------
 
-Nilecoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+Nilecoin is using scrypt as a proof-of-work algorithm.
  - ~136 million total coins
  - 6 minutes block targets
  - 64 coins per block in first year
