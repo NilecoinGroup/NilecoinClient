@@ -1,5 +1,5 @@
-Nilecoin integration/staging tree
-================================
+NilecoinGroup - N I L
+=====================
 
 http://www.nilecoin.org
 
