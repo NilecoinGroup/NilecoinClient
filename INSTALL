@@ -1,9 +1,0 @@
-Building Nilecoin
-
-See doc/readme-qt.rst for instructions on building Nilecoin-Qt,
-the intended-for-end-users, nice-graphical-interface, reference
-implementation of Nilecoin.
-
-See doc/build-*.txt for instructions on building nilecoind,
-the intended-for-services, no-graphical-interface, reference
-implementation of Nilecoin.
